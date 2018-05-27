@@ -1,0 +1,77 @@
+.body{
+    margin: 0 auto;
+    background-color: floralwhite;
+}
+.app-component{
+    text-align: center;
+}
+.header-component{
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.arrow-btn{
+    text-align:center;
+    margin-top:18px;
+}
+.monthname{
+    text-align:center;
+}
+.monthdays-ul{
+   margin: 0px;
+   list-style: none;
+   text-align: center;
+}
+.monthdays-li{
+    width:130px;
+    height: 60px;
+    padding:2px;
+    margin:5px;
+    text-align: center;
+    border: 1 solid black;
+    font-size: 24px;
+    font-weight: 300;
+    border: 1px solid gainsboro;
+}
+.monthdays-li p {
+    margin:5px;
+    padding:5px;
+    float:left;
+   
+}
+.formSelect{
+    width: 25%;
+}
+.comp-appointmentlist{
+    height: 10vmax;
+    overflow-y: auto;
+    font-size: 20px;
+}
+
+.time-list-item {
+    
+    float:left;
+}
+.title-list-item {
+    float:left;
+}
+.btn-list-item {
+    float: right;;
+}
+.btn-detail-item{
+    float: left;
+}
+.btn-trash-item{
+    float: left;
+}
+.newForm-title h3{
+    text-align: center;
+}
+
+
+
+
+

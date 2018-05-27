@@ -1,0 +1,16 @@
+/* 
+* here we are using webpack server instead of http server.
+* also se webpack.config file on root 
+*/
+var app = require('../server');
+var port = 8000;
+app.listen(port, function(err){
+    if(err){
+         console.error(err);
+    } else{
+       console.info('Listening on Port: '+ port);
+    }
+});
+   
+
+   
